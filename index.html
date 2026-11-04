@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Muhammad Rafi | CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Jika Bootstrap Anda sudah di-download lokal, ganti href ke: bootstrap-5.0.2/css/bootstrap.min.css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navmenu" data-bs-offset="90">
+
+<nav class="navbar navbar-expand-md sticky-top">
+  <div class="container">
+    <a class="brand" href="#profil">rafi<span>.cv</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Buka menu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse justify-content-end" id="menu">
+      <ul class="navbar-nav" id="navmenu">
+        <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pengalaman">Pengalaman</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= PROFIL ================= -->
+<header class="hero" id="profil">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h1>Halo, saya Muhammad Rafi.</h1>
+        <p class="lead">Mahasiswa <mark>Sistem Informasi</mark>  yang memiliki semangat untuk terus belajar dan berkembang, khususnya dalam bidang teknologi.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="#pengalaman" class="btn btn-ink">Lihat pengalaman saya</a>
+          <a href="#kontak" class="btn btn-line">Hubungi saya</a>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <!-- Ganti dengan foto Anda: simpan di folder img/ dengan nama foto.jpg -->
+        <div class="photo"><img src="img/foto.jpg" alt="Foto Nama Lengkap Anda" onerror="this.remove();this.parentNode.textContent='N'"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3"><h2 class="side">Tentang saya</h2></div>
+      <div class="col-lg-8">
+        <p class="fs-5">Saya lahir dan besar di Jakarta, dan sedang menempuh pendidikan S1 di Universitas Budi Luhur. Saya senang mempelajari hal baru serta mengembangkan kemampuan untuk menciptakan solusi yang bermanfaat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3"><h2 class="side">Keahlian</h2></div>
+      <div class="col-lg-8">
+        <div class="row g-5">
+          <div class="col-md-6">
+            <p class="mb-1 fw-bold">HTML &amp; CSS</p><div class="progress"><div class="progress-bar" style="width:90%"></div></div>
+            <p class="mb-1 fw-bold">Bootstrap 5</p><div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+            <p class="mb-1 fw-bold">JavaScript</p><div class="progress"><div class="progress-bar" style="width:60%"></div></div>
+            <p class="mb-1 fw-bold">Python</p><div class="progress"><div class="progress-bar" style="width:90%"></div></div>
+
+          </div>
+          <div class="col-md-6">
+            <p class="fw-bold mb-2">Alat yang saya pakai</p>
+            <span class="chip text-dark">VS Code</span><span class="chip text-dark">Git &amp; GitHub</span><span class="chip text-dark">Figma</span><span class="chip text-dark">Canva</span><span class="chip text-dark">NetBeans</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PENGALAMAN -->
+<section class="section" id="pengalaman">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3"><h2 class="side">Pendidikan</h2></div>
+      <div class="col-lg-8">
+        <div class="timeline">
+          <div class="t-item"><span class="t-date">2025 – sekarang</span><h3>Budi Luhur, Jakarta</h3><p>S1 Sistem Informasi</p></div>
+          <div class="t-item"><span class="t-date">2023 – 2025</span><h3>MAN 19 Jakarta Jakarta</h3><p>Jurusan IPS</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3"><h2 class="side">Pengalaman</h2></div>
+      <div class="col-lg-8">
+        <div class="timeline">
+          <div class="t-item"><span class="t-date">2024</span><h3>Asisten Pelatihan pemrograman</h3><p>Membantu siswa memahami dasar-dasar pemrograman.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3"><h2 class="side">Proyek</h2></div>
+      <div class="col-lg-9">
+        <div class="row g-4">
+          <div class="col-md-6"><div class="block r1 text-dark"><h3 class="h4">Toko Biji Kopi</h3><p>Katalog biji kopi dengan keranjang belanja sederhana.</p><span class="chip">Bootstrap</span><span class="chip">JavaScript</span></div></div>
+          <div class="col-md-6"><div class="block r2 yellow text-dark"><h3 class="h4">Koperasi</h3><p>Catat peminjaman dan pembayaran anggota koperasi</p><span class="chip">PHP</span><span class="chip">Laravel</span><span class="chip">Javascript</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KONTAK ================= -->
+<section class="section" id="kontak">
+  <div class="container">
+    <h2 class="mb-2">Ayo ngobrol.</h2>
+    <p class="fs-5 mb-5">Ada proyek, lowongan magang, atau sekadar ingin berkenalan? Kirim pesan, saya balas secepatnya.</p>
+    <div class="row g-5">
+      <div class="col-lg-5">
+        <div class="block yellow r1">
+          <h3 class="h3 mb-3">Temui saya di</h3>
+          <p class="mb-2"><strong>Email</strong><br><a href="mailto:muhammadrafi2809@gmail.com">muhammadrafi2809@gmail.com</a></p>
+          <p class="mb-2"><strong>WhatsApp</strong><br>+62 812-9033-7058</p>
+          <p class="mb-2"><strong>Instagram</strong><br>@rafimhad_</p>
+          <p class="mb-0"><strong>Lokasi</strong><br>Jakarta, Indonesia</p>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <form action="mailto:emailanda@gmail.com" method="post" enctype="text/plain">
+          <div class="mb-3"><label for="nama" class="form-label fw-bold">Nama</label><input type="text" id="nama" name="nama" class="form-control" required></div>
+          <div class="mb-3"><label for="email" class="form-label fw-bold">Email</label><input type="email" id="email" name="email" class="form-control" required></div>
+          <div class="mb-4"><label for="pesan" class="form-label fw-bold">Pesan</label><textarea id="pesan" name="pesan" rows="5" class="form-control" required></textarea></div>
+          <button type="submit" class="btn btn-ink">Kirim pesan</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container d-flex flex-wrap justify-content-between gap-2">
+    <span>&copy; 2026 Muhammad Rafi</span>
+    <span><a href="#profil">Kembali ke atas</a></span>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Tutup menu hamburger setelah link diklik (tampilan HP)
+  document.querySelectorAll('#navmenu .nav-link').forEach(function (l) {
+    l.addEventListener('click', function () {
+      var m = document.getElementById('menu');
+      if (m.classList.contains('show')) bootstrap.Collapse.getInstance(m).hide();
+    });
+  });
+</script>
+</body>
+</html>
